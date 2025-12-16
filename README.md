@@ -5,7 +5,7 @@
 
 ## Ejercicio 1: Multiplicacion matriz 2x2
 
-Se plantea el problema de aprender la multiplicación de matrices \(2 \times 2\) utilizando una **red neuronal multicapa (MLP)** con una sola capa oculta.
+Se plantea el problema de aprender la multiplicación de matrices 2x2 utilizando una **red neuronal multicapa (MLP)** con una sola capa oculta.
 
 Se generan pares de matrices \(A\) y \(B\) con valores enteros aleatorios en el rango \([-20, 20]\), y se calcula su producto matricial:
 
