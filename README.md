@@ -99,4 +99,23 @@ El algoritmo SVM demuestra ser una herramienta robusta y versátil para problema
 
 Este ejercicio evidencia cómo la correcta selección de kernel e hiperparámetros es determinante para el desempeño del modelo, y resalta la importancia de comprender el fundamento teórico del algoritmo antes de su aplicación práctica.
 
+## Ejercicio 3: Algoritmo K-Nearest Neighbors (K-NN)
 
+El algoritmo **K-Nearest Neighbors (K-NN)** es un clasificador basado en la similitud entre los puntos de datos. Dado un nuevo punto, K-NN asigna la etiqueta mayoritaria entre sus K vecinos más cercanos medidos por alguna distancia (p. ej. Euclidiana).
+
+1. **Entradas:**  
+   Conjunto de entrenamiento con features `X = {x1, x2, ..., xn}` y etiquetas `y = {y1, y2, ..., yn}`.
+
+2. **Distancia (Euclidiana):**  
+   Para un punto nuevo `x_new` y un punto `x` del entrenamiento:
+    d(x_new, x) = sqrt( sum_{i=1..m} (x_new[i] - x[i])^2 )
+
+
+3. **Regla de decisión:**  
+Calcular las distancias entre `x_new` y todos los puntos `X`, ordenar por distancia, tomar los `K` más cercanos y asignar la etiqueta mayoritaria (votación simple). También puede usarse votación ponderada por distancia.
+
+<img width="472" height="575" alt="image" src="https://github.com/user-attachments/assets/ec5d5202-eaf9-4799-883b-b76bd4e5ea0f" />-
+
+### Conclusión
+- K-NN es sensible al escalado: siempre escalar antes de usar.
+- Elección de K: valores pequeños -> fronteras complejas; valores grandes -> fronteras suaves.
