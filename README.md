@@ -9,9 +9,7 @@ Se plantea el problema de aprender la multiplicación de matrices \(2 \times 2\)
 
 Se generan pares de matrices \(A\) y \(B\) con valores enteros aleatorios en el rango \([-20, 20]\), y se calcula su producto matricial:
 
-\[
-C = A \cdot B
-\]
+C = A · B
 
 La red neuronal se entrena para aproximar esta relación entrada–salida a partir de datos, sin conocer explícitamente la fórmula algebraica de la multiplicación.
 
@@ -21,15 +19,11 @@ La red neuronal se entrena para aproximar esta relación entrada–salida a part
 
 - **Entradas:**  
   Vector de 8 elementos correspondiente a las matrices \(A\) y \(B\) aplanadas:
-  \[
-  [a_{11}, a_{12}, a_{21}, a_{22}, b_{11}, b_{12}, b_{21}, b_{22}]
-  \]
+ [a11, a12, a21, a22, b11, b12, b21, b22]
 
 - **Salidas:**  
   Vector de 4 elementos correspondiente a la matriz resultado \(C\) aplanada:
-  \[
-  [c_{11}, c_{12}, c_{21}, c_{22}]
-  \]
+[c11, c12, c21, c22]
 
 - **Arquitectura de la red:**
   - Capa de entrada: 8 neuronas
@@ -53,20 +47,16 @@ La red neuronal multicapa con una sola capa oculta es capaz de aprender y aproxi
 
 El algoritmo SVM busca encontrar un **hiperplano óptimo** que separe los datos de diferentes clases maximizando el margen entre ellos. Para el caso lineal, este hiperplano se define como:
 
-\[
-\mathbf{w}^T \mathbf{x} + b = 0
-\]
+w^T x + b = 0
 
 donde:
-- \(\mathbf{w}\) es el vector normal al hiperplano,
-- \(b\) es el sesgo,
-- \(\mathbf{x}\) es el vector de características.
+- w es el vector normal al hiperplano,
+- b es el sesgo,
+- x es el vector de características.
 
 El criterio de optimalidad consiste en maximizar el margen, lo que equivale a minimizar:
 
-\[
-\frac{1}{2} \|\mathbf{w}\|^2
-\]
+(1/2) * ||w||^2
 
 sujeto a las restricciones de clasificación.
 
