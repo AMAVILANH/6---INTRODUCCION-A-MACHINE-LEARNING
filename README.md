@@ -119,3 +119,16 @@ Calcular las distancias entre `x_new` y todos los puntos `X`, ordenar por distan
 ### Conclusión
 - K-NN es sensible al escalado: siempre escalar antes de usar.
 - Elección de K: valores pequeños -> fronteras complejas; valores grandes -> fronteras suaves.
+
+## Ejercicio 4: Algoritmo de Árboles de Decisión
+
+El algoritmo de Árboles de Decisión es un modelo supervisado de clasificación y regresión que divide el espacio de características en regiones homogéneas utilizando una estructura jerárquica en forma de árbol. El árbol de decisión realiza decisiones binarias o múltiples basadas en condiciones sobre las características del conjunto de datos.
+
+Entrenar y visualizar un árbol de decisión simple sobre un dataset sintético 2D para ilustrar:
+- la construcción de reglas,
+- la visualización del árbol (primeros niveles),
+- la evaluación con matriz de confusión y reporte de clasificación.
+
+**Ejecutar:** `decision_tree.ipyn
+<img width="703" height="410" alt="image" src="https://github.com/user-attachments/assets/2387d046-24ac-4631-9a6c-fbf9d5e0a3af" />
+<img width="223" height="364" alt="image" src="https://github.com/user-attachments/assets/1359b620-1342-4cee-b10b-7f6c2a5ac0cc" />
